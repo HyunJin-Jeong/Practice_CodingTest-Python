@@ -12,3 +12,8 @@ def solution(board, moves):
                     answer += 2
                 break
     return answer
+
+test = [1,2,3,4,5]
+print(test[:-2])
+print(test[-1:-2])
+print(test[-2:])
