@@ -11,5 +11,4 @@ def solution(board, moves):
                     del bucket[-1]
                     answer += 2
                 break
-    print(bucket)
     return answer
