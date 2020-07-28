@@ -5,6 +5,7 @@ def solution(skill, skill_trees):
         count = 0
         tmp = 0
 
+        #count, tmp = [count+1, tree.find(i) for i in skill if i in tree[tmp:]]
         for i in skill:
             if i in tree[tmp:]:
                 tmp = tree.find(i)
@@ -14,5 +15,5 @@ def solution(skill, skill_trees):
             answer += 1
 
     return answer
-    
+
 print(solution("CBD", ["BACDE", "CBADF", "AECB", "BDA"]))
