@@ -6,6 +6,8 @@ def solution(skill, skill_trees):
     for tree in skill_trees:
         mat = 0; tot = 0; tmp = 0
 
+
+        [ (count := count +1) if k % 2 == 0 else (tmp := tmp + 1) for k in range(1,10) ]
         # 각 유저들의 스킬트리(tree)를 선행스킬(skill)에 적합한지 비교
         for i in skill:
             tot += tree.count(i)
