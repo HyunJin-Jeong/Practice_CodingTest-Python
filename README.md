@@ -9,5 +9,5 @@
 <br>
 
 ### Summer&Winter Coding(~2018)
-> [문제](https://simpleisit.tistory.com/146) / [풀이](./etc/Summer&Winter_Coding(~2018).py)
+> [문제](https://simpleisit.tistory.com/146) / [풀이](./etc/Summer&Winter_Coding(~2018)-스킬트리.py)
 <br>
