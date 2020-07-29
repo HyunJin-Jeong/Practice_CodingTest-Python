@@ -4,14 +4,14 @@
 
 ***
 
-### 2019 카카오 개발자 겨울 인턴십
-> [문제](https://simpleisit.tistory.com/144) / [풀이](./kakao/2019_카카오_개발자_겨울_인턴십.py)
+### 2019 카카오 개발자 겨울 인턴십_크레인 인형뽑기 게임
+> [문제](https://simpleisit.tistory.com/144) / [풀이](./kakao/2019_카카오_개발자_겨울_인턴십-크레인인형뽑기게임.py)
 <br>
 
-### Summer&Winter Coding(~2018)-스킬트리
+### Summer&Winter Coding(~2018)_스킬트리
 > [문제](https://simpleisit.tistory.com/146) / [풀이](./etc/Summer&Winter_Coding(~2018)-스킬트리.py)
 <br>
 
-### Summer&Winter Coding(2019)-스킬트리
+### Summer&Winter Coding(2019)_멀쩡한 사각형
 > [문제](https://simpleisit.tistory.com/147) / [풀이](./etc/Summer&Winter_Coding(2019)-멀쩡한사각형.py)
 <br>
