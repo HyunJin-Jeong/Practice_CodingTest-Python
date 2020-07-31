@@ -15,3 +15,7 @@
 ### Summer&Winter Coding(2019)_멀쩡한 사각형
 > [문제](https://simpleisit.tistory.com/147) / [풀이](./etc/Summer&Winter_Coding(2019)-멀쩡한사각형.py)
 <br>
+
+### Summer&Winter Coding(2019)_종이접기
+> [문제](https://simpleisit.tistory.com/149) / [풀이](./etc/Summer&Winter_Coding(2019)-종이접기.py)
+<br>
