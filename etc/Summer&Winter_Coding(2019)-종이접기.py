@@ -3,6 +3,6 @@ def solution(n):
     answer = [fold]
 
     for i in range(n - 1):
-        answer = answer + [fold] + [bit ^ 1 for bit in answer[::-1]]
+        answer = answer + [fold] + [sw ^ 1 for sw in answer[::-1]]
 
     return answer
