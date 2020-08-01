@@ -1,13 +1,9 @@
 def solution(num):
-    print(int(str(num), 10) ** 0.5)
-
-    '''
     for i in range(2, 99):
         try:
-            if int(str(num), 10) ** 0.5:
-                print(i)
+            if int(str(num), i) ** 0.5:
+                return i
         except ValueError as err:
             pass
-    '''
-print(solution(15))
+print(a(61))
 #N진법으로 표현하는 문법 = int(num, base)
