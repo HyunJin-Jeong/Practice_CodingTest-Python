@@ -20,6 +20,6 @@
 > [문제](https://simpleisit.tistory.com/149) / [풀이](./etc/Summer&Winter_Coding(2019)-종이접기.py)
 <br>
 
-### Goorm Level_어느 개발자 이야기
-> [문제](https://simpleisit.tistory.com/150) / [풀이](.py)
+### Goorm Level_어느 개발자 이야기-ing
+> [문제](https://simpleisit.tistory.com/150) / [풀이](./etc/어느_개발자_이야기.py)
 <br>
