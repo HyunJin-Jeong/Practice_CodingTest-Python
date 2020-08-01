@@ -5,5 +5,5 @@ def solution(num):
                 return i
         except ValueError as err:
             pass
-print(a(61))
+print(solution(61))
 #N진법으로 표현하는 문법 = int(num, base)
