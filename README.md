@@ -19,3 +19,7 @@
 ### Summer&Winter Coding(2019)_종이접기
 > [문제](https://simpleisit.tistory.com/149) / [풀이](./etc/Summer&Winter_Coding(2019)-종이접기.py)
 <br>
+
+### Goorm Level_어느 개발자 이야기
+> [문제]() / [풀이](.py)
+<br>
