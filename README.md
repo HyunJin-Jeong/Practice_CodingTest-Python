@@ -21,5 +21,5 @@
 <br>
 
 ### Goorm Level_어느 개발자 이야기
-> [문제]() / [풀이](.py)
+> [문제](https://simpleisit.tistory.com/150) / [풀이](.py)
 <br>
