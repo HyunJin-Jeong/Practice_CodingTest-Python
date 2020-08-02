@@ -1,5 +1,6 @@
 def solution(num):
-    num = str(num)[::-1]
+    num = num[::-1]
+    
     for i in range(2, 100):
         result = 0
         cnt = 0
@@ -14,4 +15,4 @@ def solution(num):
         if len(num) == cnt and result ** 0.5 == int(result ** 0.5):
             return i
 
-print(solution(15))
+print(solution(input()))
