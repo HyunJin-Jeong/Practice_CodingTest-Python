@@ -8,10 +8,6 @@
 > [문제](https://simpleisit.tistory.com/144) / [풀이](./kakao/2019_카카오_개발자_겨울_인턴십-크레인인형뽑기게임.py)
 <br>
 
-### 2020 카카오 블라인드 채용_문자열 압축
-> [문제](https://simpleisit.tistory.com/152) / [풀이](./kakao/2020_카카오_블라인드_채용-문자열압축.py)
-<br>
-
 ### Summer&Winter Coding(~2018)_스킬트리
 > [문제](https://simpleisit.tistory.com/146) / [풀이](./etc/Summer&Winter_Coding(~2018)-스킬트리.py)
 <br>
