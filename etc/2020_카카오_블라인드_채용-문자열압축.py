@@ -20,9 +20,7 @@ def solution(s):
                 cnt = 1
 
         if len(s) % i != 0:
-            comp += s[:-(len(s) % i)]
-
-        print(comp)
+            comp += s[-(len(s) % i):]
 
         if min > len(comp):
             min = len(comp)
