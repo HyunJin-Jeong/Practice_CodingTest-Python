@@ -1,10 +1,9 @@
 import copy
-
 def solution(participant, completion):
-
-    answer = copy.deepcopy(participant)
-    [(answer.remove(i), completion.remove(i)) for i in participant if i in completion]
-    return ''.join(answer)
+    completion.sort(); participant.sort();
+    for i in completion:
+        participant.remove(i)
+    return ''.join(participant)
 
 print(solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]))
 print(solution(["marina", "josipa", "nikola", "vinko", "filipa"], ["josipa", "filipa", "marina", "nikola"]))
