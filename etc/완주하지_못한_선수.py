@@ -1,9 +1,8 @@
-import copy
+import collections
+
 def solution(participant, completion):
-    completion.sort(); participant.sort();
-    for i in completion:
-        participant.remove(i)
-    return ''.join(participant)
+    answer = collections.Counter(participant) - collections.Counter(completion)
+    return ''.join(answer.keys())
 
 print(solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]))
 print(solution(["marina", "josipa", "nikola", "vinko", "filipa"], ["josipa", "filipa", "marina", "nikola"]))
