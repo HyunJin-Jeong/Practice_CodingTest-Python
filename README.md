@@ -31,3 +31,7 @@
 ### 어느 개발자 이야기
 > [문제](https://simpleisit.tistory.com/150) / [풀이](./etc/어느_개발자_이야기.py)
 <br>
+
+### 전화번호 목록
+> [문제](https://simpleisit.tistory.com/154) / [풀이](./etc/전화번호_목록.py)
+<br>
