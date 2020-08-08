@@ -1,7 +1,7 @@
 def solution(phone_book):
-    for i in range(0, len(phone_book)):
-        for j in range(0, len(phone_book)):
-            if str(phone_book[i]) in str(phone_book[j]) and i != j:
+    for i in range(len(phone_book)-1):
+        for j in range(len(phone_book)):
+            if phone_book[i] in phone_book[j] and i != j:
                 return False
     return True
 
