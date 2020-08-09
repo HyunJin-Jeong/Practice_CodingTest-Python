@@ -35,3 +35,7 @@
 ### 전화번호 목록
 > [문제](https://simpleisit.tistory.com/154) / [풀이](./etc/전화번호_목록.py)
 <br>
+
+### K번째수
+> [문제](https://simpleisit.tistory.com/155) / [풀이](./etc/K번째수.py)
+<br>
