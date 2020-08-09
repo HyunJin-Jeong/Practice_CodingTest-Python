@@ -1,6 +1,6 @@
 # Practice_CodingTest-Python
 <br>
-파이썬을 이용해서 다양한 문제를 풀어봅니다!<br>
+파이썬을 이용해서 다양한 문제를 풀어봅니다!<br><br>
 
 ***
 
