@@ -4,7 +4,6 @@ def dfs(graph, start):
 
     while stack:
         node = stack.pop()
-        print(stack, graph[node])
         if node not in visited:
             visited.append(node)
             stack += graph[node]
@@ -21,6 +20,7 @@ for i in range(n-1):
     else:
         graph[t1] = [t2]
 
+print(dfs(graph, s))
 #graph = dict()
 #graph[1] = [2]; graph[2] = [3,4]; graph[3] = [5]; graph[4] = []; graph[5] = [6]; graph[6] = []
 #print(dfs(graph, 1))
