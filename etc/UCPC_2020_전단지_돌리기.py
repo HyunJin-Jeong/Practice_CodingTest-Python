@@ -3,18 +3,28 @@ def dfs(graph, start):
     stack = [start]
 
     while stack:
-        n = stack.pop()
-        if n not in visited:
-            visited.append(n)
-            stack += graph[n]
+        node = stack.pop()
+        print(stack, graph[node])
+        if node not in visited:
+            visited.append(node)
+            stack += graph[node]
     return visited
 
+graph = dict()
 n, s, d = map(int, input('숫자 3개 입력: ').split())
 
-graph = dict()
-graph[1] = [2]; graph[2] = [1,3,4]; graph[3] = [2,5]; graph[4] = [2]; graph[5] = [3,6]; graph[6] = [5]
+for i in range(n): graph[i+1] = []
+for i in range(n-1):
+    t1, t2 = map(int, input().split())
+    if graph.get(t1):
+        graph[t1].append(t2)
+    else:
+        graph[t1] = [t2]
 
-print(dfs(graph, 1))
+#graph = dict()
+#graph[1] = [2]; graph[2] = [3,4]; graph[3] = [5]; graph[4] = []; graph[5] = [6]; graph[6] = []
+#print(dfs(graph, 1))
+
 
 '''
 from collections import deque
