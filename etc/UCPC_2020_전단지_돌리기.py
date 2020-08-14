@@ -1,7 +1,6 @@
 def dfs(graph, start):
     visited = []
     stack = [start]
-
     while stack:
         node = stack.pop()
         if node not in visited:
@@ -9,8 +8,19 @@ def dfs(graph, start):
             stack += graph[node]
     return visited
 
+def distance(dfs):
+    cnt = 0
+    tmp = dfs[-1]
+    while dfs:
+        for k, v in graph.items():
+            if tmp in v:
+                tmp = k
+                cnt += 1
+            if tmp == s:
+                return (cnt-1) * 2
+
 graph = dict()
-n, s, d = map(int, input('숫자 3개 입력: ').split())
+n, s, d = map(int, input().split())
 
 for i in range(n): graph[i+1] = []
 for i in range(n-1):
@@ -20,11 +30,7 @@ for i in range(n-1):
     else:
         graph[t1] = [t2]
 
-print(dfs(graph, s))
-#graph = dict()
-#graph[1] = [2]; graph[2] = [3,4]; graph[3] = [5]; graph[4] = []; graph[5] = [6]; graph[6] = []
-#print(dfs(graph, 1))
-
+print(distance(dfs(graph, s)))
 
 '''
 from collections import deque
