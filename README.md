@@ -47,4 +47,8 @@
 ### 어느 개발자 이야기
 > [문제](https://simpleisit.tistory.com/150) / [풀이](./etc/어느_개발자_이야기.py)
 <br>
+
+### UCPC 2020_전단지 돌리기
+> [문제](https://simpleisit.tistory.com/158) / [풀이](./etc/UCPC_2020_전단지_돌리기.py)
+<br>
 <br>
